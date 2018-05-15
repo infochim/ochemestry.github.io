@@ -14,21 +14,22 @@ a:link, a:visited {
     display: inline-block;
 }
 
+a:hover, a:active {border-radius: 25px;
+    background-color: #282828;
+	 
 
-a:hover, a:active {
-    background-color: grey;
 }
 
 
 
 
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 13px;
 }
 
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #505050; 
 }
  
 
@@ -36,12 +37,11 @@ a:hover, a:active {
         background: rgba(0, 0, 0, 0.9);
 	border-radius: 25px;
 
-
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #282828; 
 }
 
 
@@ -51,33 +51,35 @@ div.container {
     border: 0px solid gray;
 }
 body {
-    background-image: url("w.jpg");
+    background-image: url("wallwood.jpg");
     background-repeat: no-repeat;
    
     background-attachment: fixed;
 
 }
 header {
-    padding:4em;
+    padding:0em;
     color: white;
     background-image: url("wl.jpg");
+	background-width:100%;
   background-border:5px solid black;
 padding-left:100px;
-    padding-bottom:100px;
+    padding-bottom:0px;
     text-align: left;
 	border: 2px solid black;
 	border-radius: 25px;
+
 	
 }
 
-footer {
+footer {margin-top:10px;
 background: rgba(0, 0, 0, 0.8);
     padding:0.5em;
     color: white;
     
     clear: left;
     text-align: center;
-	border: 2px solid white;
+	
 	 margin-left: 80px;
 	margin-right: 80px;
 	border-radius: 25px;
@@ -129,7 +131,7 @@ margin-top:1%;
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -165,7 +167,7 @@ margin-top:1%;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #282828;
 }
 
 </style>
@@ -175,9 +177,9 @@ margin-top:1%;
 
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10008;</a>
 <hr>
-  <a href="index.html">Introducere</a><hr>
+  <a href="MAIN_PAGE.html">Introducere</a><hr>
   <a href="page1.html">Clase de hidrocarburi</a><hr>
   <a href="page2.html">Compusi organici cu grupe functionale simple</a><hr>
   <a href="page3.html">Reactii chimice ale compusilor organici</a><hr>
@@ -192,7 +194,7 @@ margin-top:1%;
 <div class="container">
 
 <header>
-  <img src="logo3.png" width="350" >
+  <img src="logo1.png" width=30% >
   
 </header>
   
@@ -217,18 +219,18 @@ margin-top:1%;
 <hr>
   <h2><b><u>Chimia Organică</b></u></h2><hr>
   <p>Chimia organică este ramura chimiei care se ocupă cu studiul structurii, proprietăților, reacțiilor de sinteză sau de descompunere a compușilor organici. Printre compușii organici se numără hidrocarburile (compuși formați doar din carbon și hidrogen), dar și o gamă largă de substanțe derivate de la hidrocarburi, care pot conține și oxigen, azot, sulf, fosfor, halogeni sau bor, precum și alte elemente, dar în cantități mult mai mici.<p>
-  <br><img src="wall1.jpg" width=100% border="3" style="border-radius: 25px;" ><br><br>
+  <br><img src="wall1.jpg" width=100% border="1" style="border-radius: 25px;" ><br><br>
   <p>Abordarea modernă a chimiei organice presupune extinderea cunoștințelor legate de elementele care pot forma compuși organici. Astfel, a apărut chimia organometalică, ca o știință de trecere între chimia anorganică și organică. De asemenea, se mai studiază și metaloizii ca elemente din constituția compușilor organici.</p>
 <br> 
   
   
- <p> <img src="pic1.jpg" height="400"  style="float:right;border-radius: 25px;" border="3"> Studiul chimiei organice este necesar într-o gamă largă de domenii, întrucât ajută la fabricarea multor produse comerciale (precum cele farmaceutice, petrochimice și derivați ai lor, plastice și explozivi). De asemenea, chimia organică este o știință de legătură, fiind punctul de plecare pentru alte științe: chimia organometalică, biochimia, farmacologia, chimia polimerilor, știința materialelor, etc.
+ <p> <img src="pic1.jpg" width=60%  style="float:right;border-radius: 25px;" border="1"> Studiul chimiei organice este necesar într-o gamă largă de domenii, întrucât ajută la fabricarea multor produse comerciale (precum cele farmaceutice, petrochimice și derivați ai lor, plastice și explozivi). De asemenea, chimia organică este o știință de legătură, fiind punctul de plecare pentru alte științe: chimia organometalică, biochimia, farmacologia, chimia polimerilor, știința materialelor, etc.
  </p>
  
  
   </article>
 
-<footer>Organic Chemistry</footer>
+<footer>&#169;Organic Chemistry</footer>
 
 
 
@@ -251,8 +253,8 @@ function topFunction() {
 </script>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "260px";
-    document.getElementById("main").style.marginLeft = "260px";
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
 }
 
 function closeNav() {
@@ -262,7 +264,6 @@ function closeNav() {
 </script>
 </body>
 </html>
-
 
 
 
