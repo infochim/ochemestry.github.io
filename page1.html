@@ -14,21 +14,21 @@ a:link, a:visited {
     display: inline-block;
 }
 
+a:hover, a:active {border-radius: 25px;
+    background-color: #282828;
+	 
 
-a:hover, a:active {
-    background-color: grey;
 }
 
 
 
 
 ::-webkit-scrollbar {
-    width: 18px;
+    width: 13px;
 }
 
-
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #505050; 
 }
  
 
@@ -36,12 +36,11 @@ a:hover, a:active {
         background: rgba(0, 0, 0, 0.9);
 	border-radius: 25px;
 
-
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #282828; 
 }
 
 
@@ -51,30 +50,34 @@ div.container {
     border: 0px solid gray;
 }
 body {
-    background-image: url("w.jpg");
+    background-image: url("wallwood.jpg");
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
 
 }
 header {
-    padding:4em;
+    padding:0em;
     color: white;
     background-image: url("wl.jpg");
+	background-width:100%;
   background-border:5px solid black;
 padding-left:100px;
-    padding-bottom:100px;
+    padding-bottom:0px;
     text-align: left;
 	border: 2px solid black;
 	border-radius: 25px;
 	
 }
 
-footer {
+footer {margin-top:10px;
 background: rgba(0, 0, 0, 0.8);
     padding:0.5em;
     color: white;
     
     clear: left;
     text-align: center;
-	border: 2px solid white;
+	
 	 margin-left: 80px;
 	margin-right: 80px;
 	border-radius: 25px;
@@ -126,7 +129,7 @@ margin-top:1%;
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -162,7 +165,7 @@ margin-top:1%;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #282828;
 }
 
 </style>
@@ -172,13 +175,13 @@ margin-top:1%;
 
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10008;</a>
 <hr>
-  <a href="index.html">Introducere</a><hr>
+  <a href="MAIN_PAGE.html">Introducere</a><hr>
   <a href="page1.html">Clase de hidrocarburi</a><hr>
   <a href="page2.html">Compusi organici cu grupe functionale simple</a><hr>
-  <a href="page3.html">Reactii chimice ale compusilor organici</a><hr>  
-<a href="page4.html">Compusi organici cu importanta biologica</a><hr>
+  <a href="page3.html">Reactii chimice ale compusilor organici</a><hr>
+  <a href="page4.html">Compusi organici cu importanta biologica</a><hr>
 
 <a href="https://www.youtube.com/watch?v=CEH3O6l1pbw&list=PL3vn4nbhHVPCzO3U8nogYWr5LdLu6f-GT"><img src="yt.png" width="60"></a>
 <hr>
@@ -189,14 +192,14 @@ margin-top:1%;
 <div class="container">
 
 <header>
-  <img src="logo3.png" width="350" >
+  <img src="logo1.png" width=30% >
   
 </header>
   
 
 
  
-  <span style="font-size:50px;cursor:pointer; margin-left: 0px;  border-radius: 6px;border: 1px solid white;  background: rgba(0, 0, 0, 0.8);" onclick="openNav()">&#9776; CUPRINS </span>
+  <span style="font-size:50px;cursor:pointer;  border-radius: 6px;border: 1px solid white;  background: rgba(0, 0, 0, 0.8);" onclick="openNav()">&#9776; CUPRINS </span>
 </div>
 
   
@@ -209,6 +212,8 @@ margin-top:1%;
   
   
   
+
+ 
 <article>
 
 <hr>  <h2><b><u>Clase de hidrocarburi:</u></b><br>
@@ -222,7 +227,7 @@ margin-top:1%;
  
  <hr>
  <u><h2 id="alcani">Alcani</u></h2>
-<img src="alc.png" width="350" style="float:right;padding:4em;">
+<img src="alc.png" width=30% style="float:right;padding:4em;">
 <p>
 Alcanii sunt hidrocarburile în care nu apar decât legături simple de tipul C─C si C─H şi la care raportul numeric dintre cele două tipuri de atomi este exprimat prin formula CnH2n+2, unde n reprezintă numărul atomilor de carbon. În continuare, detalii despre alcani.
   </p>
@@ -236,7 +241,7 @@ Alcanii sunt hidrocarburile în care nu apar decât legături simple de tipul C�
 <p>n=4 C4H10 butan CH3─CH2─CH2─CH3</p>
 <p>n=5 C5H12 pentan CH3─CH2─CH2─CH2─CH3</p>
 <p>n=6 C6H14 hexan CH3─CH2─CH2─CH2─CH2─CH3</p>
-<img src="alc1.jpg" width="450" style="border-radius:80px;float:right;padding:2.5em;">
+<img src="alc1.jpg" width=40% style="border-radius:80px;float:right;padding:2.5em;">
 <p>Toţi aceşti alcani au catene liniare. La alcanii cu patru atomi de carbon sau mai mulţi poate apărea ramificarea lanţului. De aceea, denumirea alcanilor liniari este completată cu prefixul normal iar denumirea alcanilor ramificaţi se completează cu prefixul "izo". Cicloalcanii sunt hidrocarburi ciclice saturate care conţin o catenă ciclică şi au formula generală CnH2n. Dacă din molecula unui alcan se îndepărtează un atom de hidrogen rezultă un radical alchil.</p>
 <p>CH3─ (metil) ; ─CH2─ (metilen) ; ─CH─ (metin)</p>
 <p>CH3─CH2─CH2─ (propil)</p>
@@ -285,7 +290,7 @@ CH3─CH2─CH2─CH3 → CH2═CH─CH2─CH3 (1-butenă)+ H2{jcomments on}</p>
 Un alt tip de izomerie este izomeria geometrică ce se referă la poziţia substituenţilor faţă de legătura dublă C═C. De exemplu, 2-butena prezintă izomerii geometrici „cis” şi „trans”.</p>
  <p>
 De la alchene provin doi radicali importanţi ce intră în compoziţia unui număr mare de substanţe organice: vinil şi alil.</p>
-<img src="scientist.jpg" height="400" style="float:right">
+<img src="scientist.jpg" width=35% style="float:right">
 <p><u> OBŢINEREA ALCHENELOR</u></p>
 <p>a) Deshidratarea alcoolilor, prin încălzire cu acid sulfuric la 150 - 200°C.</p>
 <p>R-CH2-CH2-OH (alcool)   --> R-CH=CH2 (alchena) + H2O</p>
@@ -309,9 +314,9 @@ b) Adiţia halogenilor la alchene conduce la derivaţi di-halogenaţi vicinali 
  <p>Atunci când alchena este simetrică, adiţia decurge fără condiţii, ca în exemplul de mai sus. Dacă alchena este asimetrică, atunci se aplică regula lui Markovnikov (atomul de halogen se fixează la atomul cel mai sărac în hidrogen).</p>
  <p>Exemplu:</p><p>
 R-CH=CH2 (alchenă asimetrică) + HCl --> R-CHCl-CH3 (derivat halogenat)</p>
-<img src="img3.png" style="float:right;border-radius:20px;">
+<img src="img3.png" width=50% style="float:right;border-radius:20px;"><br>
 <p>d) Adiţia apei la alchene duce la formarea alcoolilor (dacă avem o alchenă nesimetrică, se aplică regula lui Markovnikov). 
-  </p><br><img src="img4.png" style="padding:1em;float:left;border-radius:40px;">
+  </p><br><img src="img4.png" width=50% style="padding:1em;float:left;border-radius:40px;">
 <p><u>II) Reacţia de oxidare</u></p><p>
 Oxidarea cu permanganat de potasiu în mediu de acid sulfuric determină ruperea dublei legături cu obţinere de acizi sau cetone, în funcţie de structura alchenei supuse oxidării:</p>
  </p>
@@ -329,10 +334,11 @@ Indicele n, numit grad de polimerizare, arată numărul de molecule de etenă ca
 <p>• Alchinele se pot clasifica după: – numărul triplelor legături din moleculă; – natura sistemelor ciclice sau aciclice din moleculă.
 <p><u>Nomenclatura alchinelor:</u>
 <p> Se formează prin înlocuirea terminaţiei „an” a denumirii hidrocarburii saturate cu aceeaşi catenă de atomi de carbon prin terminaţia „ină”, precizându-se şi poziţia triplei legături în moleculă. 
+<img src="imag 1.png" width=50%   style="float:right;border-radius:20px;">
 <p>Catena este numerotată în aşa fel încât legăturile triple să primească cele mai mici numere posibile. Dacă în moleculă sunt prezente două sau mai multe triple legături la terminaţii se adaugă particulele multiplicative „di”, „tri”, „tetra” etc., terminaţiile devenind „-adiină”, „-atriină” .
- <img src="imag 1.png" width="600" style="float:right;border-radius:20px;">
+ 
 <p>Denumirile generice a acestor hidrocarburi (liniare sau ramificate) sunt „alchină”, „alcadiină”, „alcatriină” . Există şi posibilitatea nomenclaturii radical-substitutive a alchinelor având ca şi compus de referinţă acetilena: alchil- sau arilacetilenă, pentru alchine cu legătura triplă marginală, respectiv alchil(aril)-alchil’(aril’)-acetilenă, pentru alchine cu tripla legătură nemarginală.
-  <p><img src="imag2.png" width="600" style="float:right;border-radius:20px;">
+  <p><img src="imag2.png"width=50% style="float:right;border-radius:20px;">
 <p>Hidrocarburile nesaturate aciclice neramificate având atât legături duble cât şi triple se denumesc prin înlocuirea terminaţiei „an” din numele hidrocarburii saturate corespunzătoare cu terminaţia „enină” (o legătură C=C şi o legătură CC), „adienină” (două legături C=C şi o legătură CC), „atrienină” (trei legături C=C şi o legătură CC), „endiină” (o legătură C=C şi două legături CC). Catena este numerotată în aşa fel încât numerele de poziţie cele mai mici posibile se dau legăturilor duble şi triple, legăturile duble fiind de regulă prioritare.
  <p>Atomii de carbon ai triplei legături prezintă o hibridizare sp.
  Geometria celor doi orbitali atomici hibrizi este liniară cu un unghi de 180 între legături şi cu cei doi orbitali p nehibridizaţi în două planuri perpendiculare. 
@@ -360,7 +366,7 @@ Prin întrepătrunderea liniară a doi orbitali atomici hibridizaţi sp se forme
 <p><u>Proprietăţi chimice</u> 
 <p>Proprietăţile chimice ale alchinelor sunt determinate de prezenţa triplei legături carbon-carbon şi de polaritatea legăturii carbon-hidrogen din acetilenă sau alchinele cu triplă legătură marginală. Cele mai importante reacţii sunt cele de adiţie electrofile, nucleofile, radicalice şi concertate la tripla legătură din alchine şi reacţii de substituţie la atomii de hidrogen ai triplelor legături marginale.
 <p><u>Reacţii de adiţii la alchine</u>
-  <p><img src="imag 5.png" width="600" style="float:right;border-radius:20px;">
+  <p><img src="imag 5.png" width=50% style="float:right;border-radius:20px;">
 <p> Reacţiile de adiţie electrofile (AE) decurg după un proces asincron. Reactantul electrofil (notat cu X+) va ataca atomul de carbon cu densitate mărită de electroni al triplei legături polarizate în prealabil formându-se un intermediar carbocationic. In a doua etapă de reacţie, acesta va reacţiona cu un reactant nucleofil (Yˉ) din sistem formându-se produsul de adiţie. Alchinele sunt mai putin reactive decat alchenele in aceste reactii.
 <p>In cazul reactanţilor nucleofili prin atomi de oxigen, mai puţin reactivi, adiţiile nucleofile sunt posibile doar în prezenţa unor catalizatori electrofili de tipul cationilor unor metale tranziţionale ca: Hg2+ , Zn2+ , Cd2+ , Ni2+ , Cu+ etc, când adiţiile nucleofile (AN) sunt de fapt reacţii ce decurg în cataliză electrofilă după un proces asincron. Cationul metalului tranziţional (care este un catalizator, nu un reactant electrofil) formează un complex  cu o pereche de electroni  ai triplei legături carbon-carbon din molecula alchinei, favorizând polarizarea acesteia. Reactantul nucleofil (notat Nu sau Nuˉ ) va ataca atomul de carbon cu densitate mărită de electroni al triplei legături polarizate în prealabil, sub acţiunea catalizatorului electrofil, formându-se un intermediar carbocationic. In a doua etapă de reacţie, acesta va reacţiona cu un reactant electrofil din sistem (E+ , care de regulă este protonul, H+) formându-se produsul de adiţie.
 <br><hr><br>
@@ -410,7 +416,7 @@ Acest compus este folosit în majoritate pentru producerea de ciclopentenă și 
 
  </article>
 
-<footer>Organic Chemistry</footer>
+<footer>&#169;Organic Chemistry</footer>
 
 
 
@@ -433,8 +439,8 @@ function topFunction() {
 </script>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "260px";
-    document.getElementById("main").style.marginLeft = "260px";
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
 }
 
 function closeNav() {
@@ -444,4 +450,5 @@ function closeNav() {
 </script>
 </body>
 </html>
+
 
